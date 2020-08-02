@@ -1,0 +1,61 @@
+/* Untuk Tablet */
+
+@media all and (max-width: 1000px) {
+    .pengertian,
+    .gejala,
+    .pengobatan {
+        width: 60%;
+        position: relative;
+    }
+}
+
+
+/* Untuk Smartphone */
+
+@media all and (max-width: 670px) {
+    * {
+        box-sizing: border-box;
+    }
+    .pengertian,
+    .gejala,
+    .pengobatan {
+        width: 50%;
+        position: relative;
+    }
+    .my-profile {
+        width: 30%;
+    }
+    ul.b {
+        list-style-type: square;
+        text-align: left;
+        margin: 0 20px;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+        width: 100%;
+    }
+    .extra2 {
+        width: 100%;
+        font-size: 100%;
+    }
+    .container-extra2 {
+        width: 100%;
+        font-size: 100%;
+    }
+    .text-content {
+        width: 100%;
+        font-size: 100%;
+    }
+    .title-extra2 {
+        width: 50%;
+        font-size: 100%;
+    }
+}
+
+.col-25,
+.col-75,
+input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
